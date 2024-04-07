@@ -42,6 +42,7 @@ h1 {
   font-size: 5rem;
   line-height: 5rem;
   letter-spacing: -1px;
+  color: #fff;
 }
 
 h2 {
@@ -76,3 +77,63 @@ p {
   font-size: 1rem;
   line-height: 1.5625rem;
 } */
+
+/* Header */
+.header {
+  height: 50rem;
+  background: url('../images/homepage/hero-bg-desktop.jpg') no-repeat 0 0;
+  background-position: top;
+  background-size: cover;
+}
+
+.logo {
+  padding: 3rem 8rem;
+}
+
+.header-text {
+  width: 40%;
+  margin: 6rem 0 3rem 8rem;
+}
+
+.header-text p {
+  color: #fff;
+  width: 60%;
+  margin-bottom: 2rem;
+}
+
+.header-btn {
+  padding: 1rem 4rem;
+  background-color: var(--cool-gray);
+  border: 1px solid #fff;
+}
+
+.header-btn a {
+  font-family: 'LeagueSpartan-Semibold';
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: upperCase;
+}
+
+/* About Section */
+.about {
+  height: 50rem;
+}
+
+.family {
+  display: flex;
+}
+
+.family .img-left {
+  background: url('../images/homepage/enjoyable-place-desktop.jpg') no-repeat 0
+    0;
+  background-position: top;
+  background-size: cover;
+  height: 30rem;
+  width: 25%;
+  margin: -4rem 0 5rem 8rem;
+}
+
+.family .text-right {
+  width: 25%;
+}
