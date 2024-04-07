@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --beaver: #9e7f66;
+  --cod-gray: #111;
+  --mirage: #17192b;
+  --ebony-clay: #242b37;
+  --shuttle-gray: #5c6779;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'LeagueSpartan-Light';
+  src: url('../fonts/LeagueSpartan-Light.ttf');
+  format: 'true-type';
+}
+
+@font-face {
+  font-family: 'LeagueSpartan-Regular';
+  src: url('../fonts/LeagueSpartan-Regular.ttf');
+  format: 'true-type';
+}
+
+@font-face {
+  font-family: 'LeagueSpartan-Semibold';
+  src: url('../fonts/LeagueSpartan-Semibold.ttf');
+  format: 'true-type';
+}
+
+@font-face {
+  font-family: 'LeagueSpartan-Bold';
+  src: url('../fonts/LeagueSpartan-Bold.ttf');
+  format: 'true-type';
+}
+
+/* Base Styles */
+h1 {
+  font-family: 'LeagueSpartan-Light';
+  font-size: 5rem;
+  line-height: 5rem;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-family: 'LeagueSpartan-Bold';
+  font-size: 3rem;
+  line-height: 3rem;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-family: 'LeagueSpartan-Bold';
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.25px;
+}
+
+h4 {
+  font-family: 'LeagueSpartan-SemiBold';
+  font-size: 1.0625rem;
+  line-height: 1.75rem;
+  letter-spacing: 2.5px;
+}
+
+p {
+  font-family: 'LeagueSpartan-Regular';
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+/* p {
+  font-family: 'LeagueSpartan-Regular';
+  font-size: 1rem;
+  line-height: 1.5625rem;
+} */
