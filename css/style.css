@@ -185,6 +185,60 @@ p {
 }
 
 /* Highlights Section */
+.plus-icon {
+  margin: -3rem 0 0 0;
+  margin-right: -6rem;
+  opacity: 50%;
+}
+
 .highlights {
+  display: flex;
+  justify-content: space-between;
   margin: 8rem 0;
+  margin-top: -1.5rem;
+  background-color: var(--mirage);
+  color: #fff;
+  padding: 11rem 5rem 6rem 8rem;
+}
+
+.heading-left {
+  width: 36%;
+  margin-left: 5rem;
+  /* border-top: solid 1px #fff;
+  padding-top: 5rem; */
+}
+
+.heading-left p {
+  width: 100%;
+}
+
+.heading-left h2 {
+  margin-bottom: 1rem;
+}
+
+.txt-1-left,
+.txt-2-left,
+.txt-3-left {
+  width: 60%;
+}
+
+.recipes-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rem;
+  align-items: center;
+}
+
+.recipe-1,
+.recipe-2,
+.recipe-3 {
+  display: flex;
+  margin-bottom: 2rem;
+  /* justify-content: space-between; */
+}
+
+.img-1-left,
+.img-2-left,
+.img-3-left {
+  margin-right: 3rem;
 }
