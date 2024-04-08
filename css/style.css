@@ -92,7 +92,7 @@ p {
 
 .header-text {
   width: 40%;
-  margin: 6rem 0 3rem 8rem;
+  margin: 6rem 0 3rem 10rem;
 }
 
 .header-text p {
@@ -135,7 +135,7 @@ p {
   background-size: cover;
   height: 38rem;
   width: 32%;
-  margin: -4rem 0 2rem 8rem;
+  margin: -4rem 0 2rem 5rem;
 }
 
 .family .img-left .background-pattern {
@@ -162,6 +162,7 @@ p {
 .food .text-left {
   width: 28%;
   margin: 8rem;
+  margin-left: 5rem;
 }
 
 .food .text-left h2 {
@@ -199,11 +200,12 @@ p {
   background-color: var(--mirage);
   color: #fff;
   padding: 11rem 5rem 6rem 8rem;
+  margin-bottom: 0;
 }
 
 .heading-left {
   width: 36%;
-  margin-left: 5rem;
+  margin-left: 7rem;
   /* border-top: solid 1px #fff;
   padding-top: 5rem; */
 }
@@ -241,4 +243,106 @@ p {
 .img-2-left,
 .img-3-left {
   margin-right: 3rem;
+}
+
+/* Slideshow Section */
+.family-gathering {
+  height: 45rem;
+  padding: 10rem;
+}
+
+.family-container {
+  display: flex;
+  height: 50rem;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.family-img-left-1,
+.family-img-left-2,
+.family-img-left-3 {
+  height: 40rem;
+  width: 95%;
+  margin: 4rem 0 5rem 0;
+}
+
+.family-img-left-1 {
+  background: url('../images/homepage/family-gathering-desktop.jpg') no-repeat 0
+    0;
+  background-position: top;
+  background-size: cover;
+}
+
+.family-img-left-2 {
+  background: url('../images/homepage/special-events-desktop.jpg') no-repeat 0 0;
+  background-position: top;
+  background-size: cover;
+}
+
+.family-img-left-3 {
+  background: url('../images/homepage/social-events-desktop.jpg') no-repeat 0 0;
+  background-position: top;
+  background-size: cover;
+}
+
+.family-img-left .background-pattern {
+  margin: 14rem 5rem 0 -16rem;
+}
+
+.family-txt-right {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 8rem;
+}
+
+.family-txt-right h2 {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.family-txt-right p {
+  width: 100%;
+}
+
+button {
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  background-color: var(--mirage);
+  border: 1px solid #fff;
+  width: 50%;
+}
+
+button a {
+  font-family: 'LeagueSpartan-Semibold';
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: upperCase;
+}
+
+/* Slideshow Controls */
+
+.slide-controls {
+  margin-top: 3rem;
+}
+
+.slide-controls li {
+  list-style-type: none;
+  font-family: 'LeagueSpartan-Light';
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.25rem;
+}
+
+.slideshow-controls {
+  margin: 2rem 0;
+}
+
+.back {
+  margin: 5rem 0 0 0;
+}
+
+.forward {
+  margin: 0 0.5rem;
 }
