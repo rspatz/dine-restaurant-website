@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'LeagueSpartan-Bold';
+  font-family: 'LeagueSpartan-Light';
   font-size: 3rem;
   line-height: 3rem;
   letter-spacing: -0.5px;
@@ -118,10 +118,14 @@ p {
 /* About Section */
 .about {
   height: 50rem;
+  margin-bottom: 25rem;
 }
 
+/* Family */
 .family {
   display: flex;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .family .img-left {
@@ -129,11 +133,58 @@ p {
     0;
   background-position: top;
   background-size: cover;
-  height: 30rem;
-  width: 25%;
-  margin: -4rem 0 5rem 8rem;
+  height: 38rem;
+  width: 32%;
+  margin: -4rem 0 2rem 8rem;
+}
+
+.family .img-left .background-pattern {
+  margin: 14rem 5rem 0 -16rem;
 }
 
 .family .text-right {
-  width: 25%;
+  width: 28%;
+  margin: 8rem;
+}
+
+.family .text-right h2 {
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+/* Food */
+.food {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.food .text-left {
+  width: 28%;
+  margin: 8rem;
+}
+
+.food .text-left h2 {
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+.food .img-right {
+  background: url('../images/homepage/locally-sourced-desktop.jpg') no-repeat 0
+    0;
+  background-position: top;
+  background-size: cover;
+  height: 38rem;
+  width: 32%;
+  margin: 4rem 8rem 0 3rem;
+  z-index: 1000;
+}
+
+.food .img-right .background-pattern {
+  margin: 14rem 5rem 0 -10rem;
+}
+
+/* Highlights Section */
+.highlights {
+  margin: 8rem 0;
 }
