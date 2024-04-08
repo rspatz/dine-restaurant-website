@@ -346,3 +346,35 @@ button a {
 .forward {
   margin: 0 0.5rem;
 }
+
+/* Reservation Section */
+.reservation {
+  display: flex;
+  justify-content: space-around;
+  height: 15rem;
+  background: url('../images/homepage/ready-bg-desktop.jpg') no-repeat 0 0;
+  background-position: top;
+  background-size: cover;
+  align-items: center;
+}
+
+.reservation-txt h2 {
+  color: #fff;
+}
+
+.reservation-btn .button {
+  padding: 1rem 4rem;
+  background-color: var(--cool-gray);
+  border: 1px solid #fff;
+  width: 100%;
+}
+
+.reservation-btn a {
+  font-family: 'LeagueSpartan-Semibold';
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: upperCase;
+  width: 80%;
+}
