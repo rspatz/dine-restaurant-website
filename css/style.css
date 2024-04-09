@@ -88,6 +88,7 @@ p {
 
 .logo {
   padding: 3rem 8rem;
+  margin-left: 2rem;
 }
 
 .header-text {
@@ -113,6 +114,30 @@ p {
   color: #fff;
   text-decoration: none;
   text-transform: upperCase;
+}
+
+/* Booking Header */
+.booking-logo {
+  padding: 3rem 8rem;
+  margin-left: 2rem;
+}
+
+.booking-header {
+  height: 35rem;
+  background: url('../images/booking/hero-bg-desktop.jpg') no-repeat 0 0;
+  background-position: top;
+  background-size: cover;
+}
+
+.booking-header-text {
+  width: 40%;
+  margin: 6rem 0 3rem 10rem;
+}
+
+.booking-header-text p {
+  color: #fff;
+  width: 60%;
+  margin-bottom: 2rem;
 }
 
 /* About Section */
