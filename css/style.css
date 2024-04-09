@@ -384,14 +384,6 @@ button a {
   width: 80%;
 }
 
-/* :root {
-  --beaver: #9e7f66;
-  --cod-gray: #111;
-  --mirage: #17192b;
-  --ebony-clay: #242b37;
-  --shuttle-gray: #5c6779;
-} */
-
 /* Footer */
 .footer {
   display: flex;
@@ -410,4 +402,11 @@ button a {
 .contact h4,
 .hours h4 {
   text-transform: upperCase;
+  letter-spacing: 0.15rem;
+}
+
+.contact p,
+.hours p {
+  text-transform: upperCase;
+  letter-spacing: 0.15rem;
 }
