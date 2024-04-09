@@ -72,12 +72,6 @@ p {
   line-height: 1.875rem;
 }
 
-/* p {
-  font-family: 'LeagueSpartan-Regular';
-  font-size: 1rem;
-  line-height: 1.5625rem;
-} */
-
 /* Header */
 .header {
   height: 50rem;
@@ -434,4 +428,165 @@ button a {
 .hours p {
   text-transform: upperCase;
   letter-spacing: 0.15rem;
+}
+
+/* ************************* */
+/* Mobile: */
+@media only screen and (max-width: 600px) {
+  /* Base Styles, Mobile */
+  h1 {
+    font-family: 'LeagueSpartan-Light';
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+    letter-spacing: -1px;
+    color: #fff;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'LeagueSpartan-Light';
+    font-size: 2.75rem;
+    line-height: 3rem;
+    letter-spacing: -0.5px;
+  }
+
+  h3 {
+    font-family: 'LeagueSpartan-Bold';
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.25px;
+  }
+
+  h4 {
+    font-family: 'LeagueSpartan-SemiBold';
+    font-size: 0.5rem;
+    line-height: 1.75rem;
+    letter-spacing: 2.5px;
+  }
+
+  p {
+    font-family: 'LeagueSpartan-Regular';
+    font-size: 1.15rem;
+    line-height: 1.875rem;
+    text-align: center;
+  }
+
+  /* Header */
+  .header {
+    height: 55rem;
+    background: url('../images/homepage/hero-bg-mobile.jpg') no-repeat 0 0;
+    background-position: top;
+    background-size: cover;
+  }
+
+  .logo {
+    padding: 17rem 8rem 0 8rem;
+    width: 50%;
+  }
+
+  .header-text {
+    width: 80%;
+    margin: 6rem 0 3rem 2rem;
+    margin: 2rem auto;
+  }
+
+  .header-text p {
+    color: #fff;
+    width: 95%;
+    margin-bottom: 2rem;
+    margin: 1rem auto;
+  }
+
+  .header-btn {
+    padding: 0.5rem 7rem;
+    background-color: var(--cool-gray);
+    border: 1px solid #fff;
+    width: 80%;
+    margin: 1rem 2rem;
+  }
+
+  .header-btn a {
+    font-family: 'LeagueSpartan-Semibold';
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: upperCase;
+  }
+
+  /* About Section */
+  .about {
+    height: 50rem;
+    margin-bottom: 25rem;
+  }
+
+  /* Family */
+  .family {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .family .img-left {
+    background: url('../images/homepage/enjoyable-place-mobile.jpg') no-repeat 0
+      0;
+    background-position: top;
+    background-size: cover;
+    height: 38rem;
+    width: 95%;
+    margin: -6rem 0.5rem 2rem 0.25rem;
+  }
+
+  .family .img-left .background-pattern {
+    margin: 0;
+    display: none;
+  }
+
+  .family .text-right {
+    width: 85%;
+    margin: 5rem auto;
+    margin-bottom: 12rem;
+  }
+
+  .family .text-right h2 {
+    width: 90%;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  /* Food */
+  .food {
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .food .text-left {
+    width: 85%;
+    margin: 5rem auto;
+    margin-bottom: 12rem;
+  }
+
+  .food .text-left h2 {
+    width: 90%;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .food .img-right {
+    background: url('../images/homepage/locally-sourced-mobile.jpg') no-repeat 0
+      0;
+    background-position: top;
+    background-size: cover;
+    height: 38rem;
+    width: 95%;
+    margin: -6rem 0.5rem 2rem 0.25rem;
+    z-index: 1000;
+  }
+
+  .food .img-right .background-pattern {
+    margin: 0;
+    display: none;
+  }
+
+  /* Highlights Section */
 }
