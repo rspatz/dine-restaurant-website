@@ -80,7 +80,7 @@ p {
   background-size: cover;
 }
 
-.logo {
+.header-logo {
   padding: 3rem 8rem;
   margin-left: 2rem;
 }
@@ -451,6 +451,11 @@ button a {
 .hours p {
   text-transform: upperCase;
   letter-spacing: 0.15rem;
+}
+
+.footer-logo {
+  padding: 3rem 8rem;
+  margin-left: 2rem;
 }
 
 /* ************************* */
@@ -862,7 +867,7 @@ button a {
   }
 
   /* Footer */
-  .logo {
+  .footer-logo {
     padding-top: 5rem;
     width: 80%;
     margin: 0 0 2rem 15rem;
