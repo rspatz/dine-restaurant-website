@@ -834,4 +834,35 @@ button a {
   }
 
   /* Reservation Section */
+  .reservation {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 18rem;
+    background: url('../images/homepage/ready-bg-mobile.jpg') no-repeat 0 0;
+    background-position: top;
+    background-size: cover;
+    align-items: center;
+    padding-top: 6rem;
+  }
+
+  .reservation-txt h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+
+  .reservation-btn .button {
+    padding: 1rem 4rem;
+    background-color: var(--cool-gray);
+    border: 1px solid #fff;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Footer */
+  .footer {
+    flex-direction: column;
+  }
 }
