@@ -567,7 +567,7 @@ button a {
   .family .text-right {
     width: 85%;
     margin: 5rem auto;
-    margin-bottom: 12rem;
+    margin-bottom: 11rem;
   }
 
   .family .text-right h2 {
@@ -586,7 +586,7 @@ button a {
   .food .text-left {
     width: 85%;
     margin: 5rem auto;
-    margin-bottom: 5rem;
+    margin-bottom: 0;
   }
 
   .food .text-left h2 {
@@ -602,7 +602,7 @@ button a {
     background-size: cover;
     height: 38rem;
     width: 80%;
-    margin: -6rem 0 5rem 2.25rem;
+    margin: -6rem 0 0 2.25rem;
   }
 
   .food .img-right .background-pattern {
@@ -619,7 +619,7 @@ button a {
     flex-direction: column;
     justify-content: flex-start;
     margin: 2rem auto;
-    margin-top: 90rem;
+    margin-top: 71rem;
     background-color: var(--mirage);
     color: #fff;
     padding: 5rem 2rem;
@@ -711,4 +711,127 @@ button a {
   }
 
   /* Slideshow Section */
+  .family-gathering {
+    height: 70rem;
+    padding: 0;
+    margin-top: 7rem;
+  }
+
+  .family-container {
+    flex-direction: column;
+    height: 90rem;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  .family-img-left-1,
+  .family-img-left-2,
+  .family-img-left-3 {
+    height: 120rem;
+    width: 95%;
+    margin: 0;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+  }
+
+  .family-img-left-1 {
+    background: url('../images/homepage/family-gathering-mobile.jpg') no-repeat
+      0 0;
+    background-position: top;
+    background-size: cover;
+    height: 30rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .family-img-left-2 {
+    background: url('../images/homepage/special-events-mobile.jpg') no-repeat 0
+      0;
+    background-position: top;
+    background-size: cover;
+    height: 30rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .family-img-left-3 {
+    background: url('../images/homepage/social-events-mobile.jpg') no-repeat 0 0;
+    background-position: top;
+    background-size: cover;
+    height: 30rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .family-img-left .background-pattern {
+    margin: 14rem 5rem 0 -16rem;
+  }
+
+  .family-txt-right {
+    flex-direction: column;
+    width: 70%;
+    margin: 2rem;
+  }
+
+  .family-txt-right h2 {
+    width: 100%;
+    margin: 1rem 2rem;
+  }
+
+  .family-txt-right p {
+    width: 100%;
+    margin: 0.5rem 2rem;
+  }
+
+  button {
+    padding: 1.5rem 3rem;
+    margin: 1rem 4rem;
+    background-color: var(--mirage);
+    border: 1px solid #fff;
+    width: 70%;
+  }
+
+  button a {
+    font-family: 'LeagueSpartan-Semibold';
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: upperCase;
+  }
+
+  /* Slideshow Controls */
+  .slide-controls {
+    width: 90%;
+    margin: 1rem 2rem;
+  }
+
+  .slide-controls li {
+    list-style-type: none;
+    font-family: 'LeagueSpartan-Light';
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.25rem;
+    color: var(--shuttle-gray);
+    text-align: center;
+  }
+
+  .slide-controls li .active {
+    color: blue;
+  }
+
+  .slideshow-controls {
+    margin: 0.5rem 6rem;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .back {
+    margin: 5rem 0 0 0;
+  }
+
+  .forward {
+    margin: 0 1rem;
+  }
+
+  /* Reservation Section */
 }
