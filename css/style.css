@@ -432,7 +432,7 @@ button a {
   /* justify-content: space-around; */
   align-items: center;
   padding: 5rem 0;
-  background-color: var(--mirage);
+  background-color: var(--cod-gray);
   color: #fff;
 }
 
@@ -862,7 +862,36 @@ button a {
   }
 
   /* Footer */
+  .logo {
+    padding-top: 5rem;
+    width: 80%;
+    margin: 0 0 2rem 15rem;
+  }
+
   .footer {
     flex-direction: column;
+    padding: 0;
+    padding-bottom: 5rem;
+    background-color: var(--cod-gray);
+    color: #fff;
+  }
+
+  .contact,
+  .hours {
+    margin: 0;
+    margin: 1rem 0;
+  }
+
+  .contact h4,
+  .hours h4 {
+    text-align: center;
+    line-height: 2.5rem;
+    width: 100%;
+  }
+
+  .contact p,
+  .hours p {
+    text-transform: upperCase;
+    letter-spacing: 0.15rem;
   }
 }
