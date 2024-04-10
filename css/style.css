@@ -223,10 +223,8 @@ p {
 }
 
 .heading-left {
-  width: 36%;
-  margin-left: 7rem;
-  /* border-top: solid 1px #fff;
-  padding-top: 5rem; */
+  width: 30%;
+  margin-left: 1rem;
 }
 
 .heading-left p {
@@ -246,7 +244,7 @@ p {
 .recipes-right {
   display: flex;
   flex-direction: column;
-  margin-left: 10rem;
+  margin-left: 6rem;
   align-items: center;
 }
 
@@ -256,6 +254,31 @@ p {
   display: flex;
   margin-bottom: 2rem;
   /* justify-content: space-between; */
+}
+
+.img-1-left {
+  background: url('../images/homepage/salmon-desktop-tablet.jpg') no-repeat 0 0;
+  background-position: bottom;
+  background-size: cover;
+  height: 6rem;
+  width: 22%;
+}
+
+.img-2-left {
+  background: url('../images/homepage/beef-desktop-tablet.jpg') no-repeat 0 0;
+  background-position: top;
+  background-size: cover;
+  height: 6rem;
+  width: 22%;
+}
+
+.img-3-left {
+  background: url('../images/homepage/chocolate-desktop-tablet.jpg') no-repeat 0
+    0;
+  background-position: top;
+  background-size: cover;
+  height: 6rem;
+  width: 22%;
 }
 
 .img-1-left,
@@ -435,7 +458,6 @@ button a {
 @media only screen and (max-width: 600px) {
   /* Base Styles, Mobile */
   h1 {
-    font-family: 'LeagueSpartan-Light';
     font-size: 2.75rem;
     line-height: 3.5rem;
     letter-spacing: -1px;
@@ -445,7 +467,7 @@ button a {
 
   h2 {
     font-family: 'LeagueSpartan-Light';
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     line-height: 3rem;
     letter-spacing: -0.5px;
   }
@@ -459,7 +481,7 @@ button a {
 
   h4 {
     font-family: 'LeagueSpartan-SemiBold';
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     line-height: 1.75rem;
     letter-spacing: 2.5px;
   }
@@ -532,8 +554,9 @@ button a {
     background-position: top;
     background-size: cover;
     height: 38rem;
-    width: 95%;
-    margin: -6rem 0.5rem 2rem 0.25rem;
+    width: 80%;
+    margin: -6rem auto;
+    margin-bottom: 0;
   }
 
   .family .img-left .background-pattern {
@@ -563,7 +586,7 @@ button a {
   .food .text-left {
     width: 85%;
     margin: 5rem auto;
-    margin-bottom: 12rem;
+    margin-bottom: 5rem;
   }
 
   .food .text-left h2 {
@@ -575,12 +598,11 @@ button a {
   .food .img-right {
     background: url('../images/homepage/locally-sourced-mobile.jpg') no-repeat 0
       0;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     height: 38rem;
-    width: 95%;
-    margin: -6rem 0.5rem 2rem 0.25rem;
-    z-index: 1000;
+    width: 80%;
+    margin: -6rem 0 5rem 2.25rem;
   }
 
   .food .img-right .background-pattern {
@@ -589,4 +611,104 @@ button a {
   }
 
   /* Highlights Section */
+  .plus-icon {
+    display: none;
+  }
+
+  .highlights {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2rem auto;
+    margin-top: 90rem;
+    background-color: var(--mirage);
+    color: #fff;
+    padding: 5rem 2rem;
+  }
+
+  .heading-left {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .heading-left p {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 2.5rem 2rem 3rem;
+  }
+
+  .heading-left h2 {
+    text-align: center;
+    width: 90%;
+    margin: 0 3rem;
+  }
+
+  .heading-left h4 {
+    font-size: 1rem;
+  }
+
+  .txt-1-left,
+  .txt-2-left,
+  .txt-3-left {
+    margin: 0;
+    width: 80%;
+  }
+
+  .recipes-right {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .recipe-1,
+  .recipe-2,
+  .recipe-3 {
+    flex-direction: column;
+    margin-bottom: 0;
+    /* justify-content: space-between; */
+  }
+
+  .recipe-1 p,
+  .recipe-2 p,
+  .recipe-3 p {
+    margin-left: 3rem;
+  }
+
+  .recipe-1 h4,
+  .recipe-2 h4,
+  .recipe-3 h4 {
+    width: 100%;
+    margin-left: 2.5rem;
+    text-align: center;
+  }
+
+  .img-1-left {
+    background: url('../images/homepage/salmon-mobile.jpg') no-repeat 0 0;
+    background-position: bottom;
+    background-size: cover;
+    height: 18rem;
+    width: 100%;
+  }
+
+  .img-2-left {
+    background: url('../images/homepage/beef-mobile.jpg') no-repeat 0 0;
+    background-position: top;
+    background-size: cover;
+    height: 18rem;
+    width: 100%;
+  }
+
+  .img-3-left {
+    background: url('../images/homepage/chocolate-mobile.jpg') no-repeat 0 0;
+    background-position: top;
+    background-size: cover;
+    height: 18rem;
+    width: 100%;
+  }
+
+  .img-1-left,
+  .img-2-left,
+  .img-3-left {
+    margin: 1rem 0 2rem 0;
+  }
+
+  /* Slideshow Section */
 }
