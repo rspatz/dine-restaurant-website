@@ -284,7 +284,7 @@ p {
 .img-1-left,
 .img-2-left,
 .img-3-left {
-  margin-right: 3rem;
+  margin-right: 0;
 }
 
 /* Slideshow Section */
@@ -413,7 +413,7 @@ button a {
   padding: 1rem 4rem;
   background-color: var(--cool-gray);
   border: 1px solid #fff;
-  width: 100%;
+  width: 80%;
 }
 
 .reservation-btn a {
@@ -493,7 +493,7 @@ button a {
 
   p {
     font-family: 'LeagueSpartan-Regular';
-    font-size: 1.15rem;
+    font-size: 1rem;
     line-height: 1.875rem;
     text-align: center;
   }
@@ -717,7 +717,7 @@ button a {
 
   /* Slideshow Section */
   .family-gathering {
-    height: 70rem;
+    height: 60rem;
     padding: 0;
     margin-top: 7rem;
   }
@@ -779,8 +779,9 @@ button a {
   }
 
   .family-txt-right h2 {
-    width: 100%;
+    width: 90%;
     margin: 1rem 2rem;
+    text-align: center;
   }
 
   .family-txt-right p {
@@ -808,6 +809,7 @@ button a {
   .slide-controls {
     width: 90%;
     margin: 1rem 2rem;
+    display: none;
   }
 
   .slide-controls li {
@@ -825,9 +827,9 @@ button a {
   }
 
   .slideshow-controls {
-    margin: 0.5rem 6rem;
+    margin: 0.5rem 7rem;
     margin-bottom: 0;
-    width: 100%;
+    width: 90%;
   }
 
   .back {
@@ -862,15 +864,15 @@ button a {
     padding: 1rem 4rem;
     background-color: var(--cool-gray);
     border: 1px solid #fff;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
   }
 
   /* Footer */
   .footer-logo {
     padding-top: 5rem;
-    width: 80%;
-    margin: 0 0 2rem 15rem;
+    width: 30%;
+    margin: 0 auto;
   }
 
   .footer {
