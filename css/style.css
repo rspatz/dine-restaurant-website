@@ -349,11 +349,11 @@ p {
 }
 
 button {
-  padding: 1rem 2rem;
+  padding: 1rem 0;
   margin: 1rem 0;
   background-color: var(--mirage);
   border: 1px solid #fff;
-  width: 50%;
+  width: 100%;
 }
 
 button a {
@@ -362,6 +362,7 @@ button a {
   color: #fff;
   text-decoration: none;
   text-transform: upperCase;
+  width: 100%;
 }
 
 /* Slideshow Controls */
@@ -413,7 +414,7 @@ button a {
   padding: 1rem 4rem;
   background-color: var(--cool-gray);
   border: 1px solid #fff;
-  width: 80%;
+  width: 100%;
 }
 
 .reservation-btn a {
@@ -500,7 +501,7 @@ button a {
 
   /* Header */
   .header {
-    height: 55rem;
+    height: 40rem;
     background: url('../images/homepage/hero-bg-mobile.jpg') no-repeat 0 0;
     background-position: top;
     background-size: cover;
@@ -525,7 +526,7 @@ button a {
   }
 
   .header-btn {
-    padding: 0.5rem 7rem;
+    padding: 1rem 4rem;
     background-color: var(--cool-gray);
     border: 1px solid #fff;
     width: 80%;
@@ -542,7 +543,7 @@ button a {
 
   /* About Section */
   .about {
-    height: 50rem;
+    height: 45rem;
     margin-bottom: 25rem;
   }
 
@@ -791,10 +792,10 @@ button a {
 
   button {
     padding: 1.5rem 3rem;
-    margin: 1rem 4rem;
+    margin: 1rem 2rem;
     background-color: var(--mirage);
     border: 1px solid #fff;
-    width: 70%;
+    width: 100%;
   }
 
   button a {
@@ -864,7 +865,7 @@ button a {
     padding: 1rem 4rem;
     background-color: var(--cool-gray);
     border: 1px solid #fff;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 
