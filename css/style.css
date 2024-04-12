@@ -97,9 +97,10 @@ p {
 }
 
 .header-btn {
-  padding: 1rem 4rem;
+  padding: 1.25rem 4rem;
   background-color: var(--cool-gray);
   border: 1px solid #fff;
+  width: 40%;
 }
 
 .header-btn a {
@@ -108,30 +109,6 @@ p {
   color: #fff;
   text-decoration: none;
   text-transform: upperCase;
-}
-
-/* Booking Header */
-.booking-logo {
-  padding: 3rem 8rem;
-  margin-left: 2rem;
-}
-
-.booking-header {
-  height: 35rem;
-  background: url('../images/booking/hero-bg-desktop.jpg') no-repeat 0 0;
-  background-position: top;
-  background-size: cover;
-}
-
-.booking-header-text {
-  width: 40%;
-  margin: 6rem 0 3rem 10rem;
-}
-
-.booking-header-text p {
-  color: #fff;
-  width: 60%;
-  margin-bottom: 2rem;
 }
 
 /* About Section */
@@ -457,6 +434,53 @@ button a {
 .footer-logo {
   padding: 3rem 8rem;
   margin-left: 2rem;
+}
+
+/* Booking Page */
+/* Booking Header */
+.booking-logo {
+  padding: 3rem 8rem;
+  margin-left: 2rem;
+}
+
+.booking-header {
+  height: 32rem;
+  background: url('../images/booking/hero-bg-desktop.jpg') no-repeat 0 0;
+  background-position: top;
+  background-size: cover;
+}
+
+.booking-header-text {
+  width: 40%;
+  margin: 4rem 0 3rem 10rem;
+}
+
+.booking-header-text p {
+  color: #fff;
+  width: 60%;
+  margin-bottom: 2rem;
+}
+
+.form-background img {
+  height: 5rem;
+  margin: -30rem 0 0 35rem;
+}
+
+.form {
+  height: 30rem;
+  width: 25%;
+  padding: 2rem;
+  margin: -18rem 0 5rem 40rem;
+  background-color: #fff;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+
+.form-control input {
+  border: none;
+  border-bottom: solid 1px var(--mirage);
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 /* ************************* */

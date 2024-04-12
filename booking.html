@@ -30,8 +30,46 @@
       </div>
     </header>
 
+    <!-- Booking Form -->
+    <form action="" id="form" class="form">
+      <div class="form-control">
+        <input type="text" id="username" placeholder="Name" />
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <input type="text" id="email" placeholder="Email" />
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="date">Pick a date</label>
+        <input type="text" id="month" placeholder="MM" />
+        <input type="text" id="day" placeholder="DD" />
+        <input type="text" id="year" placeholder="YYYY" />
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="date">Pick a time</label>
+        <input type="text" id="hour" placeholder="09" />
+        <input type="text" id="minute" placeholder="00" />
+        <input type="time" id="time" />
+        <small>Error message</small>
+      </div>
+
+      <button class="booking-btn">Make Reservation</button>
+    </form>
+
+    <div class="form-background">
+      <img
+        src="../images/patterns/pattern-lines.svg"
+        alt="background-pattern"
+      />
+    </div>
+
     <footer class="footer">
-      <div class="logo"><img src="./images/logo.svg" alt="logo" /></div>
+      <div class="footer-logo"><img src="./images/logo.svg" alt="logo" /></div>
       <div class="contact">
         <h4>Marthwaite, Sedbergh</h4>
         <h4>Cumbria</h4>
@@ -43,5 +81,6 @@
         <p>Sat - Sun: 09:00 AM - 11:30 PM</p>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
