@@ -192,11 +192,11 @@ p {
   display: flex;
   justify-content: space-between;
   margin: 8rem 0;
+  margin-bottom: 0;
   margin-top: -1.5rem;
   background-color: var(--mirage);
   color: #fff;
-  padding: 11rem 5rem 6rem 8rem;
-  margin-bottom: 0;
+  padding: 11rem 5rem 6rem 5rem;
 }
 
 .heading-left {
@@ -221,7 +221,7 @@ p {
 .recipes-right {
   display: flex;
   flex-direction: column;
-  margin-left: 6rem;
+  margin-left: 0;
   align-items: center;
 }
 
@@ -230,7 +230,7 @@ p {
 .recipe-3 {
   display: flex;
   margin-bottom: 2rem;
-  /* justify-content: space-between; */
+  justify-content: space-around;
 }
 
 .img-1-left {
@@ -506,6 +506,18 @@ date {
   width: 15%;
   margin-left: 2.4rem;
   text-align: center;
+  align-elements: center;
+}
+
+.booking-count {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.booking-count button {
+  background: none;
+  cursor: pointer;
 }
 
 .booking-btn {

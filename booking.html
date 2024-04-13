@@ -51,11 +51,17 @@
       </div>
 
       <div class="form-control">
-        <label for="date">Pick a time</label>
+        <label for="time">Pick a time</label>
         <input type="text" id="hour" placeholder="09" />
         <input type="text" id="minute" placeholder="00" />
         <input type="time" id="time" />
         <!-- <small>Error message</small> -->
+        <h4></h4>
+      </div>
+      <div class="booking-count">
+        <button id="minus">-</button>
+        <div><span id="display"></span> people</div>
+        <button id="plus">+</button>
       </div>
 
       <button class="booking-btn">Make Reservation</button>
@@ -81,6 +87,6 @@
         <p>Sat - Sun: 09:00 AM - 11:30 PM</p>
       </div>
     </footer>
-    <script src="./js/script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

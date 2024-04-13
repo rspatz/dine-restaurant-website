@@ -30,3 +30,11 @@ function SlideShow(n) {
 
   slides[slidePosition - 1].style.display = 'flex';
 }
+
+// Booking Form
+const minusButton = document.querySelector('#minus');
+const plusButton = document.querySelector('#plus');
+
+minusButton.addEventListener('click', function () {
+  alert('clicked!');
+});
